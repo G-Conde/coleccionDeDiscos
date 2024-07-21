@@ -1,0 +1,25 @@
+# depslib dependency file v1.0
+1721090135 source:c:\users\germa\onedrive\escritorio\compactdisk\startist.c
+	"stArtist.h"
+
+1721090135 c:\users\germa\onedrive\escritorio\compactdisk\startist.h
+
+1721090135 source:c:\users\germa\onedrive\escritorio\compactdisk\stcd.c
+	<stdio.h>
+	<stdlib.h>
+	"stCd.h"
+
+1721262307 c:\users\germa\onedrive\escritorio\compactdisk\stcd.h
+
+1721262307 source:c:\users\germa\onedrive\escritorio\compactdisk\main.c
+	<stdio.h>
+	<stdlib.h>
+	"stCd.c"
+
+1721264068 c:\users\germa\onedrive\escritorio\compactdisk\stcd.c
+	<stdio.h>
+	<stdlib.h>
+	"strings.h"
+	"conio.h"
+	"stCd.h"
+
