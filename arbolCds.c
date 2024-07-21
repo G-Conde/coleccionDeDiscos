@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include "conio.h"
+#include <stdlib.h>
 #include "arbolCds.h"
 
 nodoArbol* inicArbol(nodoArbol* arbol)
@@ -16,7 +19,7 @@ nodoArbol* agregarArbol(nodoArbol*arbol,nodoArbol * nuevo)
 {
     if(!arbol)
     {
-        arbol=crearArbol(stCds dato);
+        arbol=crearArbol(nuevo->dato);
     }else{
 
         if(nuevo->dato.yearRelease < arbol->dato.yearRelease)

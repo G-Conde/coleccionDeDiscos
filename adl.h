@@ -4,7 +4,7 @@
 #include "arbolCds.h"
 
 typedef struct{
-    stArtists artist[20];
+    stArtists artist;
     nodoArbol* arbol;
 }stCelda;
 

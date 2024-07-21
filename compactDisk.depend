@@ -1,20 +1,26 @@
 # depslib dependency file v1.0
-1721090135 source:c:\users\germa\onedrive\escritorio\compactdisk\startist.c
+1721596802 source:c:\users\germa\onedrive\escritorio\compactdisk\startist.c
+	<stdlib.h>
+	<stdio.h>
+	"strings.h"
+	"conio.h"
 	"stArtist.h"
 
-1721090135 c:\users\germa\onedrive\escritorio\compactdisk\startist.h
+1721521365 c:\users\germa\onedrive\escritorio\compactdisk\startist.h
 
-1721090135 source:c:\users\germa\onedrive\escritorio\compactdisk\stcd.c
+1721597579 source:c:\users\germa\onedrive\escritorio\compactdisk\stcd.c
 	<stdio.h>
 	<stdlib.h>
+	"strings.h"
+	"conio.h"
 	"stCd.h"
 
-1721262307 c:\users\germa\onedrive\escritorio\compactdisk\stcd.h
+1721527002 c:\users\germa\onedrive\escritorio\compactdisk\stcd.h
 
-1721262307 source:c:\users\germa\onedrive\escritorio\compactdisk\main.c
+1721597509 source:c:\users\germa\onedrive\escritorio\compactdisk\main.c
 	<stdio.h>
 	<stdlib.h>
-	"stCd.c"
+	"adl.h"
 
 1721264068 c:\users\germa\onedrive\escritorio\compactdisk\stcd.c
 	<stdio.h>
@@ -22,4 +28,21 @@
 	"strings.h"
 	"conio.h"
 	"stCd.h"
+
+1721597219 c:\users\germa\onedrive\escritorio\compactdisk\adl.h
+	"stArtist.h"
+	"arbolCds.h"
+
+1721595876 c:\users\germa\onedrive\escritorio\compactdisk\arbolcds.h
+	"stCd.h"
+
+1721596832 source:c:\users\germa\onedrive\escritorio\compactdisk\arbolcds.c
+	<stdio.h>
+	"conio.h"
+	<stdlib.h>
+	"arbolCds.h"
+
+1721597318 source:c:\users\germa\onedrive\escritorio\compactdisk\adl.c
+	"adl.h"
+	"strings.h"
 

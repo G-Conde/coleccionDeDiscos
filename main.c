@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "stCd.c"
-#include "stArtist.c"
+#include "adl.h"
+
 
 int main()
 {
-    stCds cd;
-    stArtists a, b;
+    stCds c;
+    stArtists a;
+    stCelda cel[15];
     a=cargarArtista();
-    b=cargarArtista();
-    muestraArtista(a);
-    muestraArtista(b);
-    cd=cargaCds();
-    muestraCds(cd);
+    c=cargaCds();
+    int v =0 ;
+    v= alta(cel,v,c,a);
+    printf("Artista: %s, Nacionalidad: %s\n", cel[0].artist.name, cel[0].artist.nationality);
+
     return 0;
 }

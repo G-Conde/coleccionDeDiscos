@@ -1,7 +1,9 @@
 #include <stdlib.h>
+#include <stdio.h>
 #include "strings.h"
 #include "conio.h"
 #include "stArtist.h"
+#define MAX 15
 
 int getNextId() { //Uso una funcion que me permita reutilizarla o bien el mantenimiento del codigo va a ser mas sencillo
     static int currentId = 1; // Variable estática para mantener el último ID asignado.

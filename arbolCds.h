@@ -2,11 +2,13 @@
 #define ARBOLCDS_H_INCLUDED
 #include "stCd.h"
 
-typedef struct{
+typedef struct nodoArbol nodoArbol;
+
+ struct nodoArbol{
     stCds dato;
-    nodoArbol*izq;
-    nodoArbol*der;
-}nodoArbol;
+    nodoArbol* izq;
+    nodoArbol* der;
+};
 
 nodoArbol* inicArbol(nodoArbol* arbol);
 nodoArbol* crearArbol(stCds dato);
