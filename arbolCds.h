@@ -8,6 +8,8 @@ typedef struct{
     nodoArbol*der;
 }nodoArbol;
 
-
+nodoArbol* inicArbol(nodoArbol* arbol);
+nodoArbol* crearArbol(stCds dato);
+nodoArbol* agregarArbol(nodoArbol*arbol,nodoArbol * nuevo);
 
 #endif // ARBOLCDS_H_INCLUDED

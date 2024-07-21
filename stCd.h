@@ -4,6 +4,7 @@
 
 typedef struct{
     char title[MAX];
+    int yearRelease;
     int duration;
     float price;
     char genre[MAX];

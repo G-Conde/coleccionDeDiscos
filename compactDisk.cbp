@@ -34,6 +34,10 @@
 		<Unit filename="adl.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>
+		<Unit filename="arbolCds.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
 		<Unit filename="arbolCds.h">
 			<Option target="&lt;{~None~}&gt;" />
 		</Unit>

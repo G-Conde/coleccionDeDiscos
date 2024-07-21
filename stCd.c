@@ -9,6 +9,8 @@ stCds cargaCds(){
     printf("Title:\n");
     fgets(a.title, MAX, stdin);
     a.title[strcspn(a.title, "\n")] = '\0';
+    printf("Año de lanzamiento:\n");
+    scanf("%d",&)
     printf("Duration:\n");
     scanf("%d",&a.duration);
     printf("Price:\n");
@@ -19,6 +21,7 @@ stCds cargaCds(){
      a.genre[strcspn(a.genre, "\n")] = '\0';
 return a;
 }
+
 void muestraCds(stCds c){
     printf("TITLE...............: %s\n", c.title);
     printf("DURATION.............: %d\n", c.duration);
