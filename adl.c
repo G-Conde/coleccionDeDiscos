@@ -3,22 +3,22 @@
 
 int alta(stCelda celda[], int v, stCds c, stArtists a)
 {
-    int pos=buscaPos(celda,v,a);
+    int pos=buscaPos(celda,v,a.id);
     if(pos==-1)
     {
-        v=agregarEquipo(celda,v,e);
+        v=agregarArtista(celda,v,a);
         pos=v-1;
     }
-    celda[pos].arbolJugadores=agregarArbol(celda[pos].arbolJugadores,crearArbol(j));
+    celda[pos].arbol=agregarArbol(celda[pos].arbol,crearArbol(c));
     return v;
 }
-int buscaPos(stCelda celda[], int v, int idEquipo)
+int buscaPos(stCelda celda[], int v, int id)
 {
     int pos=-1;
     int i=0;
     while(i<v && pos==-1)
     {
-        if(idEquipo==celda[i].equipo.idEquipo)
+        if(id==celda[i].artist.id)
         {
             pos=i;
         }
@@ -26,10 +26,10 @@ int buscaPos(stCelda celda[], int v, int idEquipo)
     }
     return pos;
 }
-int agregarEquipo(stCelda celda[], int v, stEquipo e)
+int agregarArtista(stCelda celda[], int v, stArtists a)
 {
-    celda[v].equipo.idEquipo=e.idEquipo;
-    strcpy(celda[v].equipo.nombreEquipo,e.nombreEquipo);
-    celda[v].equipo.puntosGanados=e.puntosGanados;
+    celda[v].artist.id=a.id;
+    strcpy(celda[v].artist.name,a.name);
+    strcpy(celda[v].artist.nationality,a.nationality);
     return v+1;
 }
